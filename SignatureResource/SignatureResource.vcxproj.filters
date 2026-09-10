@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SignatureResource">
+      <UniqueIdentifier>{4f840d14-673b-40c2-be3e-17f831e021c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{3968dbc0-94ff-4f4b-93fd-0bf8365e9345}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SignatureResource\SignatureData.cpp">
+      <Filter>SignatureResource</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureResource\SignatureResource.cpp">
+      <Filter>SignatureResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\main.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SignatureResource\SignatureData.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureResource\SignatureDataRegisterMacro.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureResource\SignatureResource.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureResource\SignatureID.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureResource\SignatureFind.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureResource\SignatureResourceOption.h">
+      <Filter>SignatureResource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
